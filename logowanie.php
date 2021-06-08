@@ -1,5 +1,5 @@
 <?php
-session_start();
+//session_start();
 require_once('db_connect.php');
 echo '<div class="container-fluid belka text-center"><h2>Logowanie</h2></div><br />';
 echo '<div class="container text-left">';

@@ -8,17 +8,17 @@
           <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse"id="mainNavigation">
-            <ul class="navbar-nav ml-auto">
-            <li class="nav-item"><a class="nav-link text-dark" href="index.php?url=rejestracja">Zarejestruj się</a></li>
+            <ul class="navbar-nav ml-auto">   
+               
 <?php
 if (isset($_SESSION['nazwisko'])) {
 
  echo '<li class="nav-item"><a class="nav-link text-dark" href="index.php?url=wyloguj">Wyloguj</a></li>';
-  
+
 } else { 
     echo '<li class="nav-item"><a class="nav-link text-dark" href="index.php?url=rejestracja">Zarejestruj się</a></li>
-    <li class="nav-item"><a class="nav-link text-dark" href="index.php?url=logowanie">Zaloguj się</a></li>';    
-
+    <li class="nav-item"><a class="nav-link text-dark" href="index.php?url=logowanie">Zaloguj się</a></li>';
+    
 }
 ?>
 </ul>

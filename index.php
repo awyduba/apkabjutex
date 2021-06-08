@@ -14,6 +14,7 @@
   </head>
   <body>
      <?php
+     session_start();
      	require_once('db_connect.php');
       include_once('menu.php');
 if (!isset($_REQUEST['url'])) {
@@ -67,29 +68,29 @@ if (!isset($_REQUEST['url'])) {
     <div class="container pb-5">
   <div class="row align-items-start">
     <div class="col">
-      <h4>Klient</h4>
-      Fryzjerzy<br />
-      Kosmetyczki<br />
-      Pomoc<br />
+      <h4>Serwis</h4>
+      O nas<br />
+      Kontakt<br />
+      Regulamin<br />
 
     </div>
     <div class="col">
-      <h4>Pracownik</h4>  
+      <h4>Klient</h4>  
       Fryzjerzy<br />
       Kosmetyczki<br />
       Pomoc<br />
     </div>
     <div class="col">
      <h4>Właściciel</h4>
-      Fryzjerzy<br />
-      Kosmetyczki<br />
-      Pomoc<br />
+      Dla właściciela<br />
+      Zgłoś salon<br />
+      Regulamin<br />
     </div>
     <div class="col">
-      <h4>Serwis</h4>
-      Fryzjerzy<br />
-      Kosmetyczki<br />
-      Pomoc<br />
+      <h4>Pracownik</h4>
+      Dla pracownika<br />
+      Cennik<br />
+      <br />
     </div>
   </div>
 </div>
