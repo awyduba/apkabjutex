@@ -1,0 +1,54 @@
+
+.jumbotron{
+	background-image: url(../images/jumbo.png);
+	background-size:cover;
+	height: 700px;
+	color: white;
+	   
+}
+.belka{
+	background-color: #264279;
+	background-size:cover;
+	height: 100px;
+	color: white;
+	padding: 30px;
+}
+
+.btn-color {
+	background-color: #ea9fc3;
+	position: relative;
+	top: 500px;
+}
+
+.ramki {
+	height:30%;
+	width: 30%;
+	padding: 5%;
+}
+
+.footer{
+	background-color:#264279;
+	color: white;
+	padding: 10px;
+	clear:both;
+  }
+
+.rozowyguzik{
+	background-color:#ea9fc3;
+	color: white;
+}
+.kolumny-glowna{
+	background-color:#264279;
+	color: white;
+	height: 200px;
+	border-radius: 15px;
+	padding-top: 20px;
+}
+
+.grafiki-ramka {
+	width: 30px;
+	height: 30px;
+	margin-left: 10px;
+	margin-right: 10px;
+
+}
