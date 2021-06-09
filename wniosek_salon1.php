@@ -36,7 +36,7 @@ echo "Udało się wysłać wniosek!";
 else{
 	echo "Nie udało się wysłać wniosku!";
 }
-} else { echo 'Jest już salon o takiej nazwie stworzony przez Ciebie.';}
+} else { echo 'Jest już wniosek na taki salon wysłany przez Ciebie.';}
 
 
 } else {
@@ -52,7 +52,7 @@ echo '<h2>Prosimy uzupełnić jeszcze następujące dane: </h2><br /><form actio
   <div class="row mb-3">
     <label for="inputDodatkowe_informacje" class="col-sm-2 col-form-label">Dodatkowe informacje </label>
     <div class="col-sm-10">
-      <input type="text" class="form-control" id="inputDodatkowe_informacje" name="dodatkowe_informacje" required />
+      <input type="text" class="form-control" id="inputDodatkowe_informacje" name="dodatkowe_informacje" />
     </div>
   </div>
   <div class="row mb-3">

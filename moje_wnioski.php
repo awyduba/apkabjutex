@@ -2,6 +2,8 @@
  require_once('db_connect.php');
  echo '<div class="container-fluid belka text-center"><h2>Moje wnioski o stworzenie salonu</h2></div><br />';
  echo '<div class="container-fluid">';
+ 
+ 
  if(isset($_SESSION['status'])=='właściciel') {
 
 $kto=$_SESSION['kto'];
@@ -11,7 +13,7 @@ $zapytanie="SELECT id_wniosku, nazwa_salonu, ulica, miejscowosc, kod_pocztowy, n
 
 $wyk_zap=mysqli_query($naw_pol, $zapytanie);
   if(mysqli_num_rows($wyk_zap)<1){echo 'Nie masz żadnych wniosków.';} else {//sprawdzenie czy są wnioski
-  echo '<table class="table table-striped table-responsive ml-auto"><tr>
+  echo '<table class="table table-striped table-responsive table-hover mx-auto w-auto"><tr>
   <td><b>#</b></td>
   <td><b>nazwa salonu</b></td>
   <td><b>ulica</b></td>

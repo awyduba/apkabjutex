@@ -56,3 +56,8 @@
 .kontener{
 	min-height: 520px;
 }
+
+.table {
+	margin: auto;
+	width: 100% !important; 
+ }
