@@ -26,7 +26,7 @@ if (!isset($_REQUEST['url'])) {
 	
 	switch ($url) {
 	
-	case 'glowna':
+	  case 'glowna':
 		include('glowna.php');
 		break;
 
@@ -35,18 +35,58 @@ if (!isset($_REQUEST['url'])) {
     break; 
 
     case 'rejestracja1':
-      include('rejestracja1.php');
-      break;   
+    include('rejestracja1.php');
+    break;   
       
     case 'logowanie':
     include('logowanie.php');
-    break;  
+    break; 
+
+    case 'lista_uzytkownikow':
+    include('lista_uzytkownikow.php');
+    break; 
+
+    case 'lista_salonow':
+    include('lista_salonow.php');
+    break; 
+
+    case 'wniosek_salon':
+    include('wniosek_salon.php');
+    break; 
+
+    case 'wniosek_salon1':
+    include('wniosek_salon1.php');
+    break; 
+
+    case 'lista_wnioskow':
+    include('lista_wnioskow.php');
+    break; 
+    
+    case 'lista_wnioskow_akceptuj':
+    include('lista_wnioskow_akceptuj.php');
+    break; 
+
+    case 'lista_wnioskow_odrzuc':
+    include('lista_wnioskow_odrzuc.php');
+    break; 
+
+    case 'moje_wnioski':
+    include('moje_wnioski.php');
+    break; 
+
+    case 'moje_wnioski_uzupelnij':
+    include('moje_wnioski_uzupelnij.php');
+    break; 
+
+    case 'moje_salony':
+    include('moje_salony.php');
+    break; 
 
     case 'wyloguj':
 		include('wyloguj.php');
 		break;       
 		
-	default:
+	  default:
 		include('glowna.php');
 		break;
 	

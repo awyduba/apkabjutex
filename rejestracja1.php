@@ -121,8 +121,8 @@ echo '<h2>Prosimy uzupełnić jeszcze następujące dane: </h2><br /><form actio
   <div class="row mb-3">
     <label class="col-sm-2 col-form-label">Zgody: </label>
     <div class="col-sm-10">
-    <input type="checkbox" name="zgoda1" class=""  value="regulamin-jest"/> Akceptuję regulamin serwisu Bjutex<br />
-    <input type="checkbox" name="zgoda2" class=""  value="przetwarzanie-danych-jest"/> Wyrażam zgodę na przetwarzanie moich danych<br />
+    <input type="checkbox" name="zgoda1" class=""  value="tak"/> Akceptuję regulamin serwisu Bjutex<br />
+    <input type="checkbox" name="zgoda2" class=""  value="tak"/> Wyrażam zgodę na przetwarzanie moich danych<br />
     </div>
   </div>
 
